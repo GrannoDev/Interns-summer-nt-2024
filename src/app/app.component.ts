@@ -1,5 +1,5 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core'
-import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router'
+import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -13,21 +13,15 @@ import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router'
     <div class="grid w-full grid-cols-1 gap-4 p-10">
       <div class="navbar bg-base-100">
         <div class="flex-1">
-          <a class="btn btn-ghost text-xl" routerLink="/"
-            >Northtech Angular Basics</a
-          >
+          <a class="btn btn-ghost text-xl text-primary" routerLink="/">Northtech Angular Basics</a>
         </div>
         <div class="flex-none">
           <ul class="menu menu-horizontal px-1">
             <li>
-              <a routerLink="memory-leak" routerLinkActive="text-primary"
-                >Memory leak</a
-              >
+              <a routerLink="memory-leak" routerLinkActive="text-primary">Memory leak</a>
             </li>
             <li>
-              <a routerLink="signals" routerLinkActive="text-primary"
-                >Signals</a
-              >
+              <a routerLink="signals" routerLinkActive="text-primary">Signals</a>
             </li>
           </ul>
         </div>
@@ -40,5 +34,5 @@ import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router'
   `,
 })
 export class AppComponent {
-  title = 'interns-summer-2024'
+  title = 'interns-summer-2024';
 }
